@@ -1,0 +1,85 @@
+
+.mainbody{
+    padding: 5px 5px;
+}
+
+.weathercontainer {
+    border-spacing: 10px;
+    margin: 0 auto;width: 1000px; height: auto;
+}
+.faddr {
+    font-size:30px;
+    font-weight: bold;
+}
+
+.forecast-area {
+    position:relative; 
+    width: 800px; 
+    height: 290px;
+}
+.forecast {
+    position:relative; 
+    width: 200px; 
+    height: 260px; 
+    border: 3px solid red;
+    border-spacing: 10px;
+    float:left;
+    padding: 15px 5px;
+    margin: 12px 30px;
+    border-radius: 15px;
+    background: burlywood;
+}
+.forecast .weather-image {
+    display: block;
+    width: 120px; 
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forecast #date {
+    position:relative; 
+    float:left;
+}
+.forecast #day {
+    position:relative; 
+    float:right;
+}
+.forecast #desc {
+    position:relative; 
+    text-align:center; 
+    width: 185px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+.forecast #max_temp {
+    position:relative; 
+    float:left;
+}
+.forecast #min_temp {
+    position:relative; 
+    float:right;
+}
+
+#coviddata {
+    position: relative; 
+    width: 320px;
+    height: 270px;
+    border-radius: 5px;
+    background: burlywood;
+    margin-top: 10px;
+}
+
+#coviddata > div{
+    position:relative;
+    display: block; 
+    font-size:18px; 
+    padding: 4px;
+}
+#coviddata #addr{
+    font-size:22px;
+    font-weight: bold; 
+    
+}
